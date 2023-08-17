@@ -9,5 +9,4 @@ export class AppComponent {
   // public title: string = 'My first angular app';
   public title: string = 'Hello world!';
 
-  public counter: number = 10
 }
