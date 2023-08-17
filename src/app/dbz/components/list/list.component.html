@@ -10,6 +10,10 @@
       let isOdd = odd
     "
     class="list-group-item"
+    [ngClass]="{
+      'list-group-item-dark': isLast,
+      'list-group-item-primary': isFirst,
+    }"
   >
     <span class="text-primary">{{ i + 1 }}.</span>
 
@@ -27,5 +31,4 @@
 
     <span class="">Es impar: {{ isOdd }} </span>
   </li>
-  <!-- <li class="list-group-item">Goku - 10,000</li> -->
 </ul>
